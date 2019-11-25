@@ -1,1 +1,100 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  background: #3023AE;
+  background: -moz-linear-gradient(90deg, #3023AE 0%, #C86DD7 100%);
+  background: -webkit-linear-gradient(90deg, #3023AE 0%, #C86DD7 100%);
+  background: linear-gradient(90deg, #3023AE 0%, #C86DD7 100%);
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+  list-style: none;
+  background: #FFF;
+  border-radius: 5px;
+  box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.40);
+  -webkit-box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.40);
+  -moz-box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.40);
+}
+
+li {
+  padding: 15px;
+  margin: 10px;
+  font-size: 1em;
+  font-style: italic;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+ul>li>span button {
+  border: none;
+  background: #FFF;
+  font-size: 1em;
+  text-transform: uppercase;
+  float: right;
+  opacity: 0.5;
+  transition: opacity 0.7s;
+}
+
+ul>li>span>button:hover {
+  opacity: 1;
+  transition: opacity 0.7s;
+}
+
+.title {
+  color: #FFF;
+  font-size: 3em;
+  text-shadow: 2px 5px #000;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.button {
+  background: #000;
+  padding: 20px;
+  color: #FFF;
+  border: none;
+  border-radius: 30px;
+  font-size: 1em;
+  font-weight: 100;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#modal {
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+  list-style: none;
+  background: #FFF;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.40);
+  -moz-box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.40);
+  box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.40);
+}
+
+input {
+  width: 100%;
+  line-height: 50px;
+  text-indent: 10px;
+  font-size: 1.2em;
+}
+
+.danger {
+  background: #FF0000;
+  color: #FFF;
+  font-weight: bold;
+  padding: 5px;
+  margin-top: 10px;
+}
