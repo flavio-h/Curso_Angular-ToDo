@@ -4,6 +4,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Playlist - https://www.youtube.com/playlist?list=PLHlHvK2lnJneQPfbOvUait1MtAoXeYhtL
 
+## Screenshots
+
+![Screen-01](screenshots/Curso_Angular_ToDo-01.png)
+
+![Screen-02](screenshots/Curso_Angular_ToDo-02.png)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
